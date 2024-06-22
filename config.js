@@ -18,15 +18,15 @@ global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Kenya";
 global.github=process.env.GITHUB|| "https://github.com/ibrahimaitech/BLACK-PANTHER-MD/tree/main";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y";
-global.website=process.env.GURL || "https://chat.whatsapp.com/GoPZhE9zc6Y3ul0RnD4HXw" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/c49429f9051bd41ad96dc.jpg" ; // SET LOGO FOR IMAGE 
+global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaiMm7d4yltT51HS1T1G";
+global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaiMm7d4yltT51HS1T1G" ; 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/3556d79e9af1e330d96b3.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
-global.devs = "254710772666,255762190568,255679513639" // Developer Contact
+global.devs = "255612419246, 255716661569,255767528416" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254710772666255762190568,255679513639";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "255612419246, 255716661569,255767528416";
 
 
 
@@ -42,7 +42,7 @@ global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to open logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES || "https://telegra.ph/file/c49429f9051bd41ad96dc.jpg" // BLACKPANTHER Theme Images
+global.userImages= process.env.USER_IMAGES || "https://telegra.ph/file/3556d79e9af1e330d96b3.jpg" // BLACKPANTHER Theme Images
 global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
@@ -55,11 +55,11 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "254710772666";
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
 global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
-global.save_status_from =  process.env.SAVE_STATUS_FROM  || "255762190568,255679513639,254710772666";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "254710772666,254710772666255762190568,255679513639";
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || "255612419246, 255716661569,255767528416";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "255612419246, 255716661569,255767528416";
 
 global.api_smd = "https://api-smd-1.vercel.app"
-global.scan = "https://baraka-md-af3e38f6851a.herokuapp.com/";
+global.scan = "https://wa.me/qr/74RCM7QVCGJ6B1";
 
 
 global.SESSION_ID = process.env.SESSION_ID ||  "" ;
@@ -72,12 +72,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.1",
-  caption : process.env.CAPTION || "BARAKA-XMD✅" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : process.env.CAPTION || "BONIPHACE-MD✅" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "Mr baraka",
+  author : process.env.PACK_AUTHER|| "Mr Boniphace",
   packname: process.env.PACK_NAME || "🐯",
-  botname : process.env.BOT_NAME  || "BARAKA MD",
-  ownername:process.env.OWNER_NAME|| "Mr baraka",
+  botname : process.env.BOT_NAME  || "BONIPHACE-MD",
+  ownername:process.env.OWNER_NAME|| "Mr Boniphace",
 
 
   errorChat : process.env.ERROR_CHAT || "",
