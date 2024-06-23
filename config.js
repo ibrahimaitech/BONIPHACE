@@ -59,7 +59,7 @@ global.save_status_from =  process.env.SAVE_STATUS_FROM  || "255612419246, 25571
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "255612419246, 255716661569,255767528416";
 
 global.api_smd = "https://api-smd-1.vercel.app"
-global.scan = "https://wa.me/qr/74RCM7QVCGJ6B1";
+global.scan = "https://wa.link/1eyv9w";
 
 
 global.SESSION_ID = process.env.SESSION_ID ||  "" ;
